@@ -1,0 +1,2 @@
+mcu_control
+-DCATKIN_DEVEL_PREFIX=/home/wbc/SRT/AV_control/devel -DCMAKE_INSTALL_PREFIX=/home/wbc/SRT/AV_control/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/wbc/SRT/AV_control/install
+
+Name: mcu_control
+Description: Description of mcu_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,31 @@
+MCU connection List:
+1.  Driving Motor
+handler green -> PA7
+		orange -> +5V
+		black -> GND
+velo_meter -> PA4
+contorller: red -> +60V 
+			black ->Battery_GND
+			attention to electrial_clock -> +60V
+
+2. Stepper Motor
+controller  A+ A- B+ B- ->follow the instruction on the motor
+			VDC+ / AC(AC can also use DC as input) -> 24V
+			VDC - / AC -> Battery_GND
+			PLS+ / PUL+  ->  PA6
+			DIR+  -> PA0
+			PLS- / PUL-  DIR-  ->  GND
+			ENA+ ENA-  -> NC
+			
+3. USART
+As usual
+
+4.CAN_BUS
+		TX  ->  PA12
+		RX  ->  PA11
+		VCC  -> +5V
+		GND  -> GND
+
+5.host
+		DB9_pin_7   ->  CAN_H
+		DB9_pin_2   ->  CAN_L
